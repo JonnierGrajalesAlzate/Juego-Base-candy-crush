@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatcheAdas</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/1cf0fc1f6f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <h1>Match</h1>
+    <div class="control display-none" id="control">
+        <div class="combo">
+            <div>Combo<span id="combo"> x1</span></div>
+        </div>
+        <div class="score">
+            <div>Puntos:</div><span id="score">0</span>
+        </div>
+        <div class="icons">
+            <div id="info"><i class="fas fa-info-circle"></i></div>
+            <div id="reset"><i class="fas fa-sync-alt"></i></div>
+        </div>
+    </div>
+    <div id="board" class="responsive"></div>
+    <div id="timer" class="timer display-none">
+        <div><i class="fas fa-hourglass-half"></i></div>
+        <div id="timer-txt"><span id="gameTime">1 : 00</span></div>
+    </div>
+
+    <script src="start.js"></script>
+     <script src="script.js"></script> 
+     <script src="events.js"></script>
+     <script src="timer.js"></script>
+     <script src="score.js"></script>
+     <script src="match.js"></script>
+     
+   
+</body>
+
+</html>
